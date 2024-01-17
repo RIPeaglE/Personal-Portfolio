@@ -3,7 +3,7 @@
 h1.projectTitle {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px; /* Adjust as needed */
+    margin-bottom: 10px; 
 }
 
 .pTitle {
@@ -18,7 +18,7 @@ h1.projectTitle {
     justify-content: center;
     height: 70vh;
     gap: 2%;
-    padding: 0 2% 3% 2%; /* Adjust as needed */
+    padding: 0 2% 3% 2%; 
 }
 
 
@@ -80,7 +80,6 @@ h1.projectTitle {
     display: flex;
 }
 
-/* Added styles for Demo and Link buttons */
 .demoButton, .linkButton {
     display: flex;
     padding: 12px;
