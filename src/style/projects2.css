@@ -54,7 +54,7 @@ h1.projectTitle {
     max-height: 70%;
     padding: 20px;
     border-radius: 8px;
-    background-color: white;
+    background-color: #707793;
     color: black;
     position: relative;
     overflow-y: auto;
@@ -106,6 +106,7 @@ h1.projectTitle {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
+    color: #3BBA9C;
 }
 
 .boxtext {

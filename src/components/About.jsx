@@ -9,7 +9,7 @@ const Home = () => {
       <div className='aboutContainer'>
         <h3 className='about'>About me</h3> 
         <p className='aboutme'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque pariatur culpa perspiciatis deserunt dolorem fuga, aliquam magni illo similique corrupti totam quae deleniti provident non numquam nesciunt dicta optio quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi hic fugit exercitationem reprehenderit alias placeat! Deserunt ipsam veniam nesciunt, est facere voluptatibus eos dolore culpa quae repellendus, dolorum aspernatur vel! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste esse saepe animi ullam? Officia consequuntur tempore non vero autem veritatis nulla? Perferendis ex debitis aut eaque. Tenetur ea unde ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi pariatur ipsum expedita numquam laboriosam voluptatem distinctio aspernatur nesciunt architecto adipisci ducimus quibusdam debitis ab possimus repellendus, dicta alias vero natus Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit ex expedita, sunt sit dolores, sint quod facilis praesentium quidem consequatur consectetur quis nam. Necessitatibus dolorum in praesentium amet asperiores.
+          Hello! I'm Tayfun Olgun, a 19-year-old student currently enrolled in the High School Engineering program (TE4) at NTI Södertörn, specializing in software design. Before this, I devoted three years to studying the electrical and energy program with a focus on computer and communication technology at the same school. 
         </p>
       </div>
 
