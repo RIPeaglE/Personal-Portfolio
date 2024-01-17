@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333146;
+    padding: 35px;
+    color: white;
+}
+
+nav.sticky {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+nav a:hover {
+    color:  #1d1b32;
+}

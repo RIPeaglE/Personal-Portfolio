@@ -1,0 +1,62 @@
+
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Resturant website redesign",
+        "description": "In this group project, where our task was to pick a website we disliked the design of and redesign it. We chose a local resturant website and redesigned it.",
+        "link": "https://github.com/Albin-lundstrom/grupparb-1",
+        "demo": "https://albin-lundstrom.github.io/grupparb-1/",
+        "images": []
+      },
+      {
+        "id": 2,
+        "title": "Turist Hemsida (TE4)",
+        "description": "This project aimed to create a website for a specific country, enticing people to travel there by showcasing images of cities and featuring booking and contact pages. It was a project undertaken at the beginning of the year.",
+        "link": "https://github.com/RIPeaglE/Tourist-hemsida-TE4",
+        "demo": "",
+        "images": []
+      },
+      {
+        "id": 3,
+        "title": "Personal Portfolio",
+        "description": "This website serves as a portfolio showcasing my projects and providing information about me, including contact details for inquiries. Built using React and designed in Figma.",
+        "link": "https://example.com/project3",
+        "demo": "",
+        "images": []
+      },
+      {
+        "id": 4,
+        "title": "Crud App",
+        "description": "Built an interactive website enabling user registration with a unique username, password, and role selection (admin or user). Utilized MySQL for storing user data. Requires login, and user roles determine the ability to create or only read blog posts. Technologies: HTML, CSS, Node.js, Express, Prisma, MySQL.",
+        "link": "https://github.com/RIPeaglE/tayfun_tenta3",
+        "demo": "https://demo.example.com/project4",
+        "images": []
+      },
+      {
+        "id": 5,
+        "title": "API uppgift",
+        "description": "Developed a project to explore APIs, featuring a website displaying SL bus and train departures, weather status, and top 5 books. Integrated Google Calendar, although weather and calendar functionalities are currently non-functional.",
+        "link": "https://github.com/RIPeaglE/Uppgift-API",
+        "demo": "https://ripeagle.github.io/Uppgift-API/",
+        "images": []
+      },
+      {
+        "id": 6,
+        "title": "Php Calander",
+        "description": "This project involved creating a PHP-based calendar displaying 'namnsdag' (name days), week numbers, dates, days, and Sunday indicators. Additionally, the website allowed users to select a date, showing the days left until the next Friday. Implemented using PHP for calendar functions, HTML, and CSS for design, and Bootstrap for responsiveness and styling, the result is a functional and visually appealing calendar.",
+        "link": "https://github.com/RIPeaglE/php-calander",
+        "demo": "",
+        "images": []
+      },
+      {
+        "id": 7,
+        "title": "Product Administration",
+        "description": "This project involed createing a website for a company to manage their products. The website allows users to add, edit, and delete products, as well as view all products. Implemented using PHP for product functions, HTML, and CSS for design, and Bootstrap for responsiveness and styling.",
+        "link": "https://github.com/RIPeaglE/tenta2-crud-app",
+        "demo": "",
+        "images": []
+      }
+    ]
+  }
+  

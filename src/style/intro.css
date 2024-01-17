@@ -1,0 +1,83 @@
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative; /* Add relative positioning to the parent container */
+}
+
+.social {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 1000;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #707793;
+    background-color: transparent;
+}
+
+.mouse {
+    position: absolute; /* Change to absolute positioning */
+    bottom: 20px; /* Adjust the bottom value as needed */
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 90px;
+    border: 3px solid #ffffff;
+    border-radius: 60px;
+    &::before {
+        content: '';
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffffff;
+        border-radius: 50%;
+        opacity: 1;
+        animation: wheel 2s infinite;
+    }
+}
+
+@keyframes wheel {
+    to {
+        opacity: 0;
+        top: 60px;
+    }
+}

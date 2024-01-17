@@ -1,0 +1,66 @@
+.home {
+    /* padding-top: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    /* background-color: #181c38; */
+    /* background-color: #2E3047; */
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3.about {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+
+.skilltree{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.skills{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.skillbox {
+    padding: 13px 20px; 
+    margin: 3px;
+    /* margin-bottom: 24px; */
+    margin-right: 10px; 
+    font-size: 15px; 
+    /* background: #99999933; */
+    background: #202432;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3BBA9C;
+}
+
+
+
+p:first-child {
+    margin-top: auto;
+}

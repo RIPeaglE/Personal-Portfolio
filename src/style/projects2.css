@@ -1,0 +1,134 @@
+
+
+h1.projectTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.pTitle {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 2%;
+    padding: 0 2% 3% 2%; /* Adjust as needed */
+}
+
+
+.projectBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 30%;
+    border: solid 2px #707793;
+    border-radius: 7px;
+    background-color: #181c38;
+}
+
+.popupContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupBox {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-height: 70%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    position: relative;
+    overflow-y: auto;
+}
+
+.popButton {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1b32;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.boxlinks {
+    display: flex;
+}
+
+/* Added styles for Demo and Link buttons */
+.demoButton, .linkButton {
+    display: flex;
+    padding: 12px;
+    margin-right: 10px;
+    width: 10%;
+    background-color: #1d1b32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.demoButton:hover,
+.linkButton:hover {
+    background-color: #13111d;
+}
+
+.boxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.boxtext {
+    display: inline;
+    flex-direction: column;
+    height: auto;
+}
+
+.boxdesc {
+    display: flex;
+    padding: 3% 0 0 2%;
+    /* max-width: 80%;  */
+    font-size: 30px;
+}
+
+
+h1.boxtitle {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+p:first-child {
+    margin-top: auto;
+    text-align: center;
+}
